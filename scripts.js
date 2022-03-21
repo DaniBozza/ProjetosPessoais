@@ -17,13 +17,13 @@ function corram () {
     char.style.marginLeft = parseInt(char.style.marginLeft) + Math.random()*100 + 'px';
     squir.style.marginLeft = parseInt(squir.style.marginLeft) + Math.random()*100 + 'px';
 
-    if((window.innerWidth - 240) <= parseInt(char.style.marginLeft)) {
+    if((window.innerWidth - document.getElementsByClassName('img')[0].width) <= parseInt(char.style.marginLeft)) {
         charizard.style.display = 'inline';
         mensagem.style.display = 'inline';
         textoVitoria.innerText = 'VITÓÓÓÓÓRIAAA DO MELHOOOR CHARIZARD DE TODOSSSSS!!! XUUUPAAA SQUIRTLE !!'
     }
     
-    if(window.innerWidth - 240 <= parseInt(squir.style.marginLeft)) {
+    if(window.innerWidth - document.getElementsByClassName('img')[0].width <= parseInt(squir.style.marginLeft)) {
         blastoise.style.display = 'inline';
         mensagem.style.display = 'inline';
         textoVitoria.innerText = 'VITÓÓÓÓÓRIAAA DO PIOR BLASTOISE DE TODOSSSSS!!! CHARMANDER, VOCÊ MERECIA !!'
