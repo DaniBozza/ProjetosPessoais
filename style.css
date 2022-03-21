@@ -1,0 +1,59 @@
+.img {
+    display: block;
+    width: 250px;
+    border: 5px solid red;
+}
+
+#titulo {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+#btn-corrida {
+    width: 300px;
+    height: 100px;
+    font-size: 20px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 50px;
+}
+
+#btn-restart {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#chari {
+    position: absolute;
+    top: 0px;
+    width: 1000px;
+    display: none;
+}
+
+#blas {
+    position: absolute;
+    top: 0px;
+    width: 1000px;
+    display: none;
+}
+
+#bloco-vitoria {
+    border-radius: 15%;
+    background-color: #E6E6FA;
+    display: none;
+    position: absolute;
+    right: 500px;
+    top: 100px;
+    width: 400px;
+    height: 400px;
+    border: 5px solid #913831;
+}
+
+#texto-vitoria {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 40px;
+}
+
